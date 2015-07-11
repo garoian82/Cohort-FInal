@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<div lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+
+<body>
+<h2>Here are your added movies!</h2>
+
+
+<form name="newMovieForm" id="newMovieForm">
+    <input type="text" name="movieTitle" placeholder="Title" id="movieTitle" /><br>
+    <input type="text"  name="runTime" placeholder="movie Length" id="runTime" /><br>
+    <input type="text" name="yearRelease" placeholder="Year released" id="yearRelease" />
+    <div id="genre">
+        <input type="radio" name="genre" value="comedy" /> comedy<br/>
+        <input type="radio" name="genre" value="drama" /> drama<br/>
+        <input type="radio" name="genre" value="action" /> action<br/>
+
+    </div>
+    <div class = "container">
+        <textarea type="text" name="description" placeholder="Enter A Description" id="description" class="form-control"/></textarea>
+        <input type="submit" value="Add Movie" class="btn-success"/>
+    </div>
+
+</form>
+
+
+
+<script type="text/javascript" src="js/app.js"></script>
+        
+
+
+</body>
+</html>
